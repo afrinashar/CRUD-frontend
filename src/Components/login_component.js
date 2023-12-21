@@ -13,7 +13,7 @@ const navigation=useNavigate()
     e.preventDefault();
 
     console.log(email, password);
-    fetch("http://16.171.239.100:3004/login", {
+    fetch("https://crud-backend-nbzn.onrender.com/login", {
       method: "POST",
       crossDomain: true,
       headers: {

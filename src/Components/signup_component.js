@@ -18,7 +18,7 @@ export default function SignUp() {
       e.preventDefault();
 
       console.log(firstName, lastName, email, password);
-      fetch(`http://16.171.239.100:3004/register`, {
+      fetch(`https://crud-backend-nbzn.onrender.com/register`, {
         method: "POST",
         crossDomain: true,
         headers: {
